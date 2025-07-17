@@ -4,19 +4,19 @@ export default function ContactCard() {
   const contacts = [
     {
       type: "Email",
-      icon: <Mail className="w-10 h-10 md:w-6 md:h-6" />,
+      icon: <Mail className="text-emerald-200 w-10 h-10 md:w-6 md:h-6" />,
       link: "http://moh.qasim1214@gmail.com",
       description: "Send me an email",
     },
     {
       type: "GitHub",
-      icon: <Github className="w-10 h-10 md:w-6 md:h-6" />,
+      icon: <Github className="text-emerald-200 w-10 h-10 md:w-6 md:h-6" />,
       link: "https://github.com/Syed-Muhammad-Qasim",
       description: "View my projects",
     },
     {
       type: "LinkedIn",
-      icon: <Linkedin className="w-10 h-10 md:w-6 md:h-6" />,
+      icon: <Linkedin className="text-emerald-200 w-10 h-10 md:w-6 md:h-6" />,
       link: "https://www.linkedin.com/in/syed-muhammad-qasim-69374a360/",
       description: "Connect with me",
     },

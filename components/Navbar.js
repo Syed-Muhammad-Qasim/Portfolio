@@ -42,11 +42,11 @@ export default function Navbar() {
           </Link>
         </span>
       </span>
-      <button className="bg-emerald-400 text-emerald-950 text-xl ml-auto mr-4 w-[110px] h-[30px] my-9 rounded-full hover:bg-emerald-300 hover:text-emerald-900 transition">
+      <button className=" hidden sm:flex justify-center bg-emerald-400 text-emerald-950 text-xl ml-auto mr-4 w-[110px] h-[30px] my-9 rounded-full hover:bg-emerald-300 hover:text-emerald-900 transition">
         Hire me
       </button>
       <select
-        className="md:hidden ml-auto mr-4 my-9 rounded bg-emerald-950"
+        className="md:hidden ml-auto mr-4 my-9 rounded bg-emerald-950 text-white"
         value={router.pathname=== "/" ? "/" :router.pathname}
         onChange={(e) => {
           if (e.target.value) window.location.href = e.target.value;

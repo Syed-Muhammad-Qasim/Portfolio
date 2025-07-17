@@ -77,10 +77,10 @@ export function Info({
       </div>
       <div className="flex flex-row justify-center  h-[200px] w-full px-4 gap-6 flex-wrap items-center">
         <div className=" flex items-center pl-4 w-[80px] h-[80px] bg-emerald-900 bg-opacity-80  shadow-2xl md:w-[100px] md:h-[100px] md:pl-6 hover:scale-120">
-          <SiHtml5 className="bg-[#E34F26] w-[50px] h-[60px] " />
+          <SiHtml5 className="text-white bg-[#E34F26] w-[50px] h-[60px] " />
         </div>
         <div className=" flex items-center pl-4 w-[80px] h-[80px] bg-emerald-900 bg-opacity-80  shadow-2xl md:w-[100px] md:h-[100px] md:pl-6 hover:scale-120">
-          <SiCss3 className="bg-[#1572B6] w-[50px] h-[60px] " />
+          <SiCss3 className="text-white bg-[#1572B6] w-[50px] h-[60px] " />
         </div>
         {Page === "About Me" && (
           <div className=" flex items-center pl-4 w-[80px] h-[80px] bg-emerald-900 bg-opacity-80  shadow-2xl md:w-[100px] md:h-[100px] md:pl-6 hover:scale-120">
@@ -99,13 +99,13 @@ export function Info({
 
         {Page === "About Me" && (
           <div className=" flex items-center pl-4 w-[80px] h-[80px] bg-emerald-900 bg-opacity-80  shadow-2xl md:w-[100px] md:h-[100px] md:pl-6 hover:scale-120">
-            <SiCplusplus className=" p-1 bg-[#00599C]  w-[50px] h-[60px] " />
+            <SiCplusplus className=" text-white p-1 bg-[#00599C]  w-[50px] h-[60px] " />
           </div>
         )}
 
         {Page === "About Me" && (
           <div className=" flex items-center pl-4 w-[80px] h-[80px] bg-emerald-900 bg-opacity-80  shadow-2xl md:w-[100px] md:h-[100px] md:pl-6 hover:scale-120">
-            <SiC className="p-1 bg-[#A8B9CC]  w-[50px] h-[60px] " />
+            <SiC className=" text-white p-1 bg-[#A8B9CC]  w-[50px] h-[60px] " />
           </div>
         )}
       </div>
